@@ -1,24 +1,13 @@
-# README
+S4J4_DogBnB
+Group : Robin D'Ercole and Carolina Ferreira
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
 
-Things you may want to cover:
+Dogs Airbnb
+Exercice de création de base de données avec Ruby On Rails.
+N'oubliez pas de faire un bundle install, rails db:migrate, rails db:seed puis rails c pour la correction :).
 
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+Relations entre les tables
+DogSitter en relation N-N avec Dog via Stroll.
+Dog en relation N-N avec DogSitter via Stroll.
+Stroll fait le lien dans la relation N-N entre DogSitter et Dog.
+City est en relation 1-N avec Dog, DogSitter.
